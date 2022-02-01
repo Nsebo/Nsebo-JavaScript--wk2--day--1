@@ -128,6 +128,7 @@ for (const singleObject in nestedObjects) {
   let listItem = document.createElement("li");
   console.log(nestedObjects[singleObject].name);
   listItem.innerHTML = `name: ${nestedObjects[singleObject].name} `;
+
   stuffList.append(listItem);
 }
 
