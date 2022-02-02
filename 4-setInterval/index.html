@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SetInterval</title>
+    <script src="js/script.js" defer></script>
+    <!--    defer. This Boolean attribute is set to indicate to -->
+    <!--    a browser that the script is meant to be executed after-->
+    <!--    the document has been parsed, but before firing DOMContentLoaded .-->
+    <!--    Scripts with the defer attribute will prevent the -->
+    <!--    DOMContentLoaded event from firing until the script has-->
+    <!--    loaded and finished evaluating-->
+  </head>
+  <style>
+    .container {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      list-style-type: none;
+    }
+
+    .container li {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid red;
+      border-radius: 10%;
+      font-weight: bold;
+      margin: 20px;
+    }
+  </style>
+  <body>
+    <main>
+      <h1>Learning SetInterval method</h1>
+
+      <!-- un ordered list we will use -->
+      <ul class="container"></ul>
+    </main>
+  </body>
+</html>

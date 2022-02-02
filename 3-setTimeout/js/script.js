@@ -1,5 +1,4 @@
-// The setTimeout method is used to execute a
-// function after a specified period of time.
+// The setTimeout method is used to execute a function after a specified period of time.
 
 setTimeout(function () {
   console.log("hello i am uzo");
