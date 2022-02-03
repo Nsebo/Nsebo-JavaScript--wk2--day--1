@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #ebebeb;
+  padding-top: 70px;
+  transition: all 0.5s;
+}
+
+body.scrolled {
+  background: #cdcdcd;
+}
+
+nav {
+  display: flex;
+  background: darkred;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+nav.scrolled {
+  background: white;
+  padding: 0.5rem 1rem;
+}
+
+nav.scrolled a {
+  color: #1f1f1f;
+}
+
+nav.scrolled .logo {
+  color: darkred;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 26px;
+}
+
+.menu {
+  margin-left: 2rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  margin-left: 0.5rem;
+}
+
+.container {
+  padding: 1rem;
+}
