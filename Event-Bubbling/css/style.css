@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+
+div {
+  background: rgb(238, 238, 137);
+  padding: 2rem;
+}
+
+form {
+  background: rgb(150, 198, 237);
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+button {
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+}
